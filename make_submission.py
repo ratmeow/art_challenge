@@ -4,7 +4,7 @@ from torchvision import transforms
 from baseline import init_model, ArtDataset
 
 MODEL_WEIGHTS = "./baseline.pt"
-TEST_DATASET = "/media/nikita/UBUNTU 20_0/ArtData/data_processed/test"
+TEST_DATASET = "./path/to/test_dataset"
 
 if __name__ == "__main__":
 
